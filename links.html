@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="media/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos/estilos.css" />
+    <title>Links</title>
+  </head>
+  <body>
+    <div class="hero_corto">
+      <div class="titulo_logo">
+        <img src="media/logo.png" alt="Logo" />
+      </div>
+      <div class="titulo_links"><h2>Links</h2></div>
+      <div class="links_encartas">
+        <a href="fijo.html">Encarta fijo</a>
+        <a href="moviles.html">Encarta móviles</a>
+      </div>
+    </div>
+
+    <div class="btns_links">
+      <a
+        type="button"
+        onclick="mostrarFijo()"
+        class="btn_redondo"
+        id="mostrarFijo"
+        >Links fijo</a
+      >
+      <a
+        type="button"
+        onclick="mostrarMoviles()"
+        class="btn_redondo"
+        id="mostrarMoviles"
+        >Links móviles</a
+      >
+      <a
+        type="button"
+        onclick="mostrarGenerales()"
+        class="btn_redondo"
+        id="mostrarGenerales"
+        >Links generales</a
+      >
+    </div>
+
+    <div id="selcciona_link">
+      <p>Selecciona los links que necesites</p>
+    </div>
+
+    <div class="pagina_links">
+      <table id="links_fijo">
+        <tr>
+          <th colspan="3">Links fijo</th>
+        </tr>
+        <tr>
+          <th>Herramienta</th>
+          <th>Usuario</th>
+          <th>Contraseña</th>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">Schaman</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">Broadman</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">CISAS</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">NEMO</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+
+      <table id="links_moviles">
+        <tr>
+          <th colspan="3">Links móviles</th>
+        </tr>
+        <tr>
+          <th>Herramienta</th>
+          <th>Usuario</th>
+          <th>Contraseña</th>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">Rubicon</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">CCSM</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">ER</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+
+      <table id="links_generales">
+        <tr>
+          <th colspan="3">Links generales</th>
+        </tr>
+        <tr>
+          <th>Herramienta</th>
+          <th>Usuario</th>
+          <th>Contraseña</th>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">CCMS</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">TP Client</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td><a href="#" class="links" target="_blank">TP Payroll</a></td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="footer_corto">
+      <p>Área de entrenamiento y desarrollo</p>
+      <p>Teleperformance Colombia</p>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
